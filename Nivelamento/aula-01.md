@@ -38,30 +38,9 @@ Quatro tipos de usuários podem utilizar o sistema _Mentcare_:
 
 * Como em todos os sistemas médicos, a privacidade é um requisito crítico do sistema. É essencial que as informações do paciente sejam confidenciais e nunca sejam divulgadas a ninguém além da equipe médica autorizada e do próprio paciente. Os gerentes hospitalares não devem ter acesso às informações individuais dos pacientes.
 
-# PASSO 2: Relembrando conceitos sobre casos de uso
-
-Consulte a [Seção 3.4](https://engsoftmoderna.info/cap3.html#casos-de-uso) do livro de Engenharia de Software Moderna sobre Casos de Uso e o material disponível no Canvas da disciplina.
-
 # PASSO 3: Identificando os casos de uso
 
-Converse com o seu grupo para listar os **principais casos de uso** do sistema. 
-
-Considerando que já identificamos os atores dos sistema, podemos utilizar um conjunto de perguntas como guia para a elaboração dos casos de uso: 
-
-* Quem é(são) o(s) ator(es) primário(s) e o(s) ator(es) secundário(s)?
-* Quais são as metas do ator?
-* Que precondições devem existir antes de uma história começar?
-* Que tarefas ou funções principais são realizadas pelo ator?
-* Que exceções deveriam ser consideradas à medida que uma história é descrita?
-* Quais são as variações possíveis na interação do ator?
-* Que informações de sistema o ator adquire, produz ou modifica?
-* O ator terá de informar o sistema sobre mudanças no ambiente externo?
-* Quais informações o ator deseja do sistema?
-* O ator gostaria de ser informado sobre mudanças inesperadas?
-
-Em seguida, os **casos de uso devem ser priorizados**, isto é, o grupo deve definir quais são os casos de uso mais relevantes para a construção do sistema. O objetivo é organizar as etapas para o desenvolvimento do projeto. É importante que os casos de uso descrevam cenários sucintos e bem definidos.
-
-Lembre-se que apesar de escritos pelos desenvolvedores do sistema, casos de uso devem ser entendidos e validados pelos usuários. Concentre-se nos principais casos de uso do sistema.
+Listar os **principais casos de uso** do sistema. 
 
 # PASSO 4: Descrevendo os casos de uso
 
@@ -76,10 +55,6 @@ A UML define o __[Diagrama de Casos de Uso](https://engsoftmoderna.info/cap3.htm
 Os papéis dos usuários são modelados através de atores (pequenos bonecos).
 
 Se existem muitos atores do sistema, você pode agrupá-los em atores genéricos, que compartilham características comuns. Estes atores são conectados por meio de herança. No exemplo abaixo, o "Gerente de Compras" e o "Gerente de Vendas" tem aspectos em comum, sendo agrupados no ator "Gerente".
-
-<img src="imagens/diagrama-casos-uso-atores-heranca.png" width="180"/>
-
-Neste passo, o seu grupo deve verificar e organizar os atores do sistema. Em seguida, adicione estes atores no diagrama.
 
 ## Representando os casos de uso:
 
@@ -97,11 +72,6 @@ Normalmente, utilizamos uma **ligação sem direção** para representar a **com
 textual de um caso de uso; é aí que reside o valor real da técnica". Portanto, **não vamos utilizar o relacionamento "extend"** nos nossos diagramas.
 
 Neste passo, você deve adicionar os relacionamentos do diagrama. Lembre-se de adicionar um **retângulo** para delimitar o espaço do sistema.
-
-
-# Entrega
-
-Ao final da aula, cada grupo deve mostrar os casos de uso identificados, assim como a justificativa para cada um deles. Vamos comparar os resultados e discutir as soluções propostas para respeitar os requisitos de segurança e privacidade.
 
 ## Referências
 
