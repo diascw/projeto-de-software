@@ -1,1 +1,40 @@
-keep
+Um conjunto de conceitos fundamentais de projeto de Software evolui ao longo da história.
+- Estes conceitos fornecem ao projetista de software uma base a partir da qual métdos de projeto mais sotisficados podem ser aplicados.
+
+
+CONCEITOS DE PROJETO 
+- ABSTRAÇÃO
+ * a abstração é o processo de simplificar e reduzir a complexidade, focando nos aspectos essenciais de um problema, ignorando detalhes desnecessários. No projeto de software, isso permite que desenvolvedores se concentrem nas funcionalidades essenciais e nas interações entre componentes, sem se perder em implementações detalhadas.
+ * ABSTRAÇÃO PROCEDURAL - implementado com um "conhecimento" do objeto que está associado com "abrir"
+ * ABSTRAÇÃO DE DADOS - no exemplo de uma "porta", seria a busca pelo fornecedor, número do modelo, tipo, largura, peso, mecanismo para abrir
+
+- ARQUITETURA
+* Refere-se à estrutura global do sistema, incluindo os componentes principais e suas interações. A arquitetura define o esqueleto do sistema e influencia decisões de design, desempenho, escalabilidade e manutenção.
+
+
+- Padrões 
+* é parte de um conhecimento consolidado já existente que transmite a essência de uma solução comprovada para um problema recorrente em certo contexto.
+* a descrição de um padrão permite ao projetista determinar se o padrão se aplica ou não ao trabalho em questão e se ele pode ser ou não utilizado
+
+
+- Separação de interesses
+* Esse conceito envolve dividir um sistema em partes distintas, onde cada parte aborda uma preocupação específica. A separação de interesses facilita a manutenção e evolução do software, permitindo que diferentes aspectos do sistema sejam modificados independentemente.
+
+- Modularidade
+* é a manifestação mais comum da separação de interesses
+* característica dos sistemas que são divididos em componentes
+* modularização permite que um sistema complexo seja compreendido a mente humano que não cnsegue lidar com toda a complexidade dos sistemas de uma só vez
+* abstração permite que nos concentremos no problema em algum nível de generalização sem considerar detalhes
+
+
+- Ocultação de informação
+*  A ocultação de informação é o princípio de esconder detalhes de implementação dentro de um módulo, expondo apenas o que é necessário para o uso do módulo. Isso reduz a complexidade e minimiza o impacto de mudanças em outras partes do sistema. 
+
+- Independência Funcional
+* Refere-se à capacidade de um módulo ou componente funcionar de maneira independente dos outros. Módulos com alta independência funcional são menos propensos a serem afetados por mudanças em outras partes do sistema.
+
+
+- Refinamento 
+
+
+- Refatoração

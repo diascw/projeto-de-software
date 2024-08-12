@@ -24,6 +24,7 @@
 - Modelagem Funcional com Contratos
 - Padrões de Projeto e GRASP
 - Diagramas de Estados e Classes
+- 
 
 
 
