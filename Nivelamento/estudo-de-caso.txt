@@ -1,0 +1,125 @@
+Estudo de Caso - Sistema Mentcare - Aula 01 | 06/08/2024
+Leandra Costa Ramos, Milena Lara Reis e Wanessa Dias
+
+1. Cadastro e atualização dos pacientes
+
+Ator: Equipe Clínica
+Descrição: Permite que os médicos e demais profissionais da equipe criem e atualizem registros de pacientes, incluindo informações pessoais, histórico médico e detalhes sobre serviços médicos (consultas e tratamentos)
+
+Pré-condição:
+1. O médico deve estar autenticado e autorizado a acessar o sistema.
+2. O médico deve ter as permissões necessárias para criar e atualizar registros dos pacientes.
+3. As informações do paciente a serem inseridas ou modificadas devem estar disponíveis e corretas conforme os requisitos do sistema.
+
+Fluxo Principal:
+1. O médico acessa o sistema
+2. O médico seleciona a opção de criar ou editar um registro de paciente.
+3. O sistema exibe um formulário para entrada ou modificação das informações
+4. O médico insere ou altera os dados e salva as alterações.
+5. O sistema confirma a atualização e registra a modificação no histórico do paciente.
+
+Fluxo Alternativo 04: Falha na validação dos dados
+4.1. O sistema valida os dados e identifica informações inválidas.
+4.2. O sistema exibe mensagem de erro e solicita correção dos dados
+4.3. O médico corrige as informações e tenta salvar novamente.
+4.4. O sistema confirma a atualização e registra a modificação no histórico do paciente.
+
+
+2. Visualização do Histórico do Paciente
+Ator: Equipe Clínica
+Descrição: Permite que médicos visualizem o histórico completo de um paciente, incluindo consultas anteriores, diagnósticos, tratamentos e medicações que foram prescritas.
+
+Pré-condição:
+1. O médico deve estar autenticado no sistema com as credenciais apropriadas.
+2. O paciente deve estar registrado no sistema com um perfil completo.
+3. O médico deve ter permissões apropriadas para visualizar o histórico do paciente.
+
+Fluxo Principal:
+1. O médico acessa o perfil do paciente no sistema.
+2. O sistema exibe o histórico completo do paciente.
+3. O médico revisa as informações conforme necessário.
+
+Fluxo Alternativo 1: Paciente não encontrado
+1.1: O sistema não encontra o perfil do paciente
+1.2: O sistema exibe uma mensagem de erro informando que o perfil do paciente não foi encontrado
+1.3: O médico pode optar por tentar uma nova busca ou cancelar a operação.
+
+
+
+3. Agendamento de consultas
+
+Ator: Secretária
+
+Descrição: Permite que o secretário visualize e edite informações sobre agenda de médicos, incluindo datas e horários disponíveis e datas, horários e dados de pacientes em consultas agendadas. É possível ainda confirmar se o paciente compareceu ou não na consulta.
+
+Pré-condição
+1. O secretário deve estar autenticado e autorizado a usar o sistema.
+2. O paciente deve estar cadastrado no sistema
+3. O médico deve estar cadastrado no sistema e com agenda disponível
+
+Fluxo Principal:
+1. O secretário acessa o sistema
+2. O secretário seleciona a agenda do médico com o qual deseja-se realizar a marcação de consulta.
+4. O secretário acessa uma data específica
+5. O secretário verifica a disponibilidade de horários na data selecionada
+6. O secretário seleciona um horário de acordo com a disponibilidade do paciente e do médico.
+7. O secretário seleciona o perfil do paciente que deseja realizar o agendamento
+8. O secretário confirma o agendamento da consulta.
+
+Fluxo Alternativo:
+3.1. O secretário verifica que a data selecionada não possui horários disponíveis
+3.2. O secretário retorna à página anterior
+3.3. O secretário seleciona uma nova data
+
+Fluxo Alternativo:
+7.1. O secretário verifica que o paciente não possui cadastro no sistema.
+7.2. O secretário abre o formulário de cadastro de paciente. 
+7.3. O secretário insere os dados do paciente
+7.4. O secretário confirma o cadastro do paciente
+7.5. O secretário retorna ao formulário de agendamento de consulta
+7.6.  O secretário seleciona o perfil do novo paciente e vincula ao agendamento
+
+
+4.  Segurança e Integridade do Sistema 
+
+Ator: Administrador de Sistema e Gerente de Registro
+
+Descrição: O sistema deve garantir que o administrador e o gerente de registros médicos garantam a integridade, segurança e conformidade do sistema com os requisitos legais. Inclui a integração do sistema com outros sistemas de registro de pacientes para compartilhamento de informações.
+
+Pré-condição:
+1. O administrador do sistema e o gerente de registros devem ter credenciais válidas para acessar o sistema.
+2. O sistema deve estar em pleno funcionamento e acessível.
+3. Devem existir dados de pacientes no sistema para monitoramento e verificação.
+4. O sistema deve estar configurado para gerar relatórios de integridade, segurança e conformidade.
+5. Devem existir mecanismos de notificação configurados para alertar sobre falhas críticas e não conformidades.
+
+
+
+Fluxo Principal:
+1. O administrador acessa o sistema.
+2. O administrador seleciona a opção de monitorar a integridade e segurança dos dados.
+3. O sistema exibe um painel com status e relatórios.
+4. O administrador revisa os relatórios e corrige problemas.
+5. O sistema registra as ações no histórico de segurança.
+6. O gerente de registros acessa o sistema.
+7. O gerente seleciona a opção de verificar a conformidade legal.
+8. O sistema exibe um relatório de conformidade.
+9. O gerente faz as atualizações necessárias para garantir a conformidade.
+10. O sistema registra a atualização no histórico de conformidade.
+11. Administrador e gerente configuram a integração com outros sistemas.
+12. O sistema confirma e registra as configurações de integração.
+
+Fluxo Alternativo - Falha Crítica na Segurança dos Dados:
+1. O sistema identifica uma falha crítica na segurança dos dados.
+2. O sistema envia uma notificação imediata ao administrador do sistema.
+3. O administrador acessa a notificação.
+4. O administrador toma as medidas necessárias para corrigir a falha.
+5. O sistema registra as ações tomadas no histórico de segurança.
+
+Fluxo Alternativo - Não Conformidade com Requisitos Legais:
+1. O sistema identifica uma não conformidade com os requisitos legais.
+2. O sistema envia uma notificação imediata ao gerente de registros.
+3. O gerente acessa a notificação.
+4. O gerente toma as medidas necessárias para corrigir a não conformidade.
+5. O sistema registra as ações tomadas no histórico de conformidade.
+

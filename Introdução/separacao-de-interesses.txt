@@ -1,0 +1,26 @@
+Separação de Interesses
+
+Separação de interesses é uma propriedade importante, que defende uma classe deve ter apenas um interesse (isto é, funcionalidade, requisito ou responsabilidade). Recomendações:
+
+Uma classe deve ter uma única responsabilidade
+
+Uma classe deve implementar um único interesse
+
+Uma classe deve ser coesa, ou seja, deve implementar uma única funcionalidade ou serviço.
+
+Observe esta nova versão da classe Estacionamento, que inclui também informações sobre o gerente. Quais são as responsabilidades desta classe? Você realizaria alguma mudança? Se sim, reescreva a classe visando esta melhoria.
+
+class Estacionamento {
+  ...
+  private String nome_gerente;
+  private String fone_gerente;
+  private String cpf_gerente;
+  private String endereco_gerente;
+  private Hashtable<String, String> veiculos;
+  ..
+
+}  
+
+
+
+- armazenar informações pessoais 

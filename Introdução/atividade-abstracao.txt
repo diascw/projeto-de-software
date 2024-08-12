@@ -1,0 +1,11 @@
+Abstração
+"Abstração é uma das maneiras fundamentais como nós, seres humanos, lidamos com a complexidade." - Grady Booch
+
+Segundo Pressman, uma abstração procedural "refere-se a uma sequência de instruções que possuem uma função específica e limitada". Por exemplo, a palavra "Abrir" para uma porta, que inclui uma longa lista de sequências procedurais. Por exemplo, para uma porta comum, a sequência inclui dirigir-se até a porta, alcançar e agarrar a maçaneta, girar a maçaneta, puxar a porta, afastar-se da porta em movimento, etc. 
+
+Pense e lista as etapas necessárias para abrir um portão automático. Observe que a função implicada permanece a mesma (isto é, "abrir"), porém o conjunto de operações é substituído.
+
+- lozalizar o controle;
+- se aproximar do portão;
+- pressionar o botão "abrir";
+- aguardar a resposta do sistema.
