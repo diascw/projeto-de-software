@@ -25,40 +25,15 @@ import java.util.Hashtable;
 
 public class Estacionamento {
 
-  // encapsula a estrutura de dados para armazenar os veículos
   private Hashtable<String, String> veiculos;
+
+  public void estacionar(String placa, String modelo) {
+    // regras de negocio
+    this.veiculos.put(placa, modelo);
+  }
 
   public Estacionamento() {
     veiculos = new Hashtable<String, String>();
-  }
 
-  // método para adicionar um veículo
-  public void adicionarVeiculo(String placa, String modelo) {
-    veiculos.put(placa, modelo);
-  }
-
-  // método para remover um veículo
-  public void removerVeiculo(String placa) {
-    veiculos.remove(placa);
-  }
-
-  // método para obter o modelo de um veículo
-  public String obterModelo(String placa) {
-    return veiculos.get(placa);
-  }
-
-  // método para verificar se um veículo está presente
-  public boolean existeVeiculo(String placa) {
-    return veiculos.containsKey(placa);
-  }
-
-  public static void main(String[] args) {
-    Estacionamento e = new Estacionamento();
-    e.adicionarVeiculo("TCP-7030", "Uno");
-    e.adicionarVeiculo("BNF-4501", "Gol");
-    e.adicionarVeiculo("JKL-3481", "Corsa");
-
-    // exemplo de uso dos métodos encapsulados
-    System.out.println(e.obterModelo("TCP-7030")); // Saída: Uno
   }
 }
