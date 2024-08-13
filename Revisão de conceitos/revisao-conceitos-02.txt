@@ -162,4 +162,4 @@ float calculateCos(double x) {
   return Math.cos(x);  // Calcula e retorna o cosseno de x
 }
 
-correção: cada função tem uma responsabilidade única, o que melhora a coesão e facilita a manutenção e reutilização do código.
+correção do exercício: cada função tem uma responsabilidade única, o que melhora a coesão e facilita a manutenção e reutilização do código.
