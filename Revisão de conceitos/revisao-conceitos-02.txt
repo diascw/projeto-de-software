@@ -76,7 +76,6 @@ float sin_or_cos(double x, int op) {
 }
 ```
 
-
 # Referências
 
 Engenharia de Software - Uma abordagem Profissional. 8ª ed. Roger Pressman, Bruce Maxim. 
@@ -88,78 +87,45 @@ Engenharia de Software - Uma abordagem Profissional. 8ª ed. Roger Pressman, Bru
 - Capítulo 5.6.5 Princípio de Demeter
 
 
-class A {
-  void f() {
-    int x = 10;
-    x++;      
-    printX(x);  // Extrai o código comentado para um novo método
-  }
+-------------------------------------------------------------------------
 
   void printX(int x) {
     print(x);
   }
-}
+
 
 --------------------------------------------------------------------------
+b -
 
-class A {
-  void f() {
-    int x = 10;
-    incrementAndPrint(x);  // Extrai as duas operações para um novo método
-  }
-
-  void incrementAndPrint(int x) {
-    x++;
-    print(x);
-  }
+void incrementAndPrint(int x) {
+  x++;
+  print(x);
 }
 
 
 ----------------------------------------------------------------------------
-
-class A {
-  void f() {
-    int x = 10;
-    incrementAndPrint(x);  // Extrai as operações para um novo método
-    int y = x + 1;
-    ...
-  }
-
-  void incrementAndPrint(int x) {
-    x++;
-    print(x);
-  }
+c - void incrementAndPrint(int x){
+  x++;
+  print(x);
 }
-
 
 ------------------------------------------------------------------------------
-
-class A {
-  void f() {
-    int x = 10;
-    int y = calculateAndPrint();  // Extrai as operações para um novo método
-    int z = y + 1;
-    ...
-  }
-
-  int calculateAndPrint() {
-    int y = h() * 2;
-    print(y);
-    return y;
-  }
+d - int calculateAndPrint(){
+  int y =() * 2;
+  print(y);
+  return y;  
 }
-
-
 ------------------------------------------------------------------------------
 
 a função sin_or_cos apresenta um problema de coesão, ela está realizando duas operações distintas: cálculo do seno e do cosseno. Para resolver isso, a função pode ser dividida em duas funções mais específicas:
 
-float calculateSin(double x) {
-  return Math.sin(x);  // Calcula e retorna o seno de x
+float  calSin(double x) {
+  return Math.sin(x);
 }
 
-float calculateCos(double x) {
-  return Math.cos(x);  // Calcula e retorna o cosseno de x
-}
+  float calCos(double x){
+    return Math.cos(x)
+  }
+
 
 correção do exercício: cada função tem uma responsabilidade única, o que melhora a coesão e facilita a manutenção e reutilização do código.
