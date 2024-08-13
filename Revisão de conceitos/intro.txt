@@ -33,8 +33,12 @@ CONCEITOS DE PROJETO
 - Independência Funcional
 * Refere-se à capacidade de um módulo ou componente funcionar de maneira independente dos outros. Módulos com alta independência funcional são menos propensos a serem afetados por mudanças em outras partes do sistema.
 
+- Refinamento:
+* Processo de elaboração de um sistema, começando em alto nível e gradualmente adicionando mais detalhes.
+* Um programa é desenvolvido através de refinamentos sucessivos, onde se parte de uma descrição em linguagem natural e se refina até chegar à linguagem de programação.
+Abstração (simplificação) e refinamento são conceitos complementares.
 
-- Refinamento 
 
-
-- Refatoração
+- Refatoração:
+* Refatoração é o processo de reorganizar o código de software para melhorar sua estrutura interna sem alterar seu comportamento externo.
+* O objetivo é melhorar o design, eliminando redundâncias, removendo elementos não utilizados, substituindo algoritmos ineficientes, e corrigindo estruturas de dados inadequadas.
