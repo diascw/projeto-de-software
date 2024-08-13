@@ -152,7 +152,7 @@ class A {
 
 ------------------------------------------------------------------------------
 
-a função sin_or_cos apresenta um problema de coesão, pois está realizando duas operações distintas: cálculo do seno e do cosseno. Para resolver isso, a função pode ser dividida em duas funções mais específicas:
+a função sin_or_cos apresenta um problema de coesão, ela está realizando duas operações distintas: cálculo do seno e do cosseno. Para resolver isso, a função pode ser dividida em duas funções mais específicas:
 
 float calculateSin(double x) {
   return Math.sin(x);  // Calcula e retorna o seno de x
