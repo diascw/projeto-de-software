@@ -42,3 +42,65 @@ Abstração (simplificação) e refinamento são conceitos complementares.
 - Refatoração:
 * Refatoração é o processo de reorganizar o código de software para melhorar sua estrutura interna sem alterar seu comportamento externo.
 * O objetivo é melhorar o design, eliminando redundâncias, removendo elementos não utilizados, substituindo algoritmos ineficientes, e corrigindo estruturas de dados inadequadas.
+
+- Divisão de Responsabilidades:
+* Objetivo: Organizar o aplicativo em partes distintas.
+* Como Fazer: Separe a funcionalidade em módulos ou componentes que realizem tarefas específicas e evitem sobreposições. Isso facilita a manutenção e a escalabilidade do software.
+
+- Princípio da Responsabilidade Única:
+* Objetivo: Garantir que cada módulo ou componente tenha uma única responsabilidade.
+* Como Fazer: Cada componente deve focar em uma única tarefa ou recurso, ou em um conjunto coeso de funcionalidades relacionadas. Isso melhora a coesão e reduz o acoplamento.
+
+- Princípio do Conhecimento Mínimo (Lei de Demeter):
+* Objetivo: Minimizar a dependência entre componentes.
+* Como Fazer: Um componente deve interagir com outros componentes apenas através de interfaces bem definidas e não deve conhecer os detalhes internos de outros componentes. Isso promove a modularidade e a manutenção mais fácil.
+
+- Não se Repita (DRY - Don’t Repeat Yourself):
+* Objetivo: Evitar a duplicação de código e lógica.
+* Como Fazer: Centralize a funcionalidade em um único lugar. Se um código ou lógica precisa ser reutilizada, extraia-a para um módulo ou função comum. Isso reduz erros e facilita a manutenção.
+
+- Minimize o Design Inicial:
+* Objetivo: Reduzir a complexidade inicial do projeto.
+* Como Fazer: Projete apenas o que é estritamente necessário para atender às necessidades atuais. Evite sobrecarregar o projeto com funcionalidades futuras que podem nunca ser usadas. Isso ajuda a manter o design flexível e adaptável.
+
+Esses princípios visam melhorar a qualidade, a manutenibilidade e a escalabilidade dos projetos de software. Implementá-los ajuda a criar sistemas mais robustos e fáceis de gerenciar.
+
+- Boas práticas em projeto 
+
+- Mantenha padrões de projeto consistentes dentro de uma mesma camada 
+* Mantenha o design de componentes consistente para uma determinada operação dentro de uma camada lógica 
+* Avaliar quando a complexidade e variação dos requisitos é muito alta
+
+- Não duplique funcionalidades
+* Aumenta a coesão
+* Facilidade a otimização e manutenção
+
+- Estabeleça um estilo de codificação e uma convenção de nomenclatura 
+* Facilita o entendimento
+* Otimiza a manutenção
+
+- Considere abordagens alternativas
+* Padrões 
+* Estilo de arquitetura
+* Tecnologias
+
+- Ser rastreável ao modelo de análise
+* Consistência entre modelos e os artefatos
+* Facilita o entendimento
+
+- Minimize a distância entre o software e o problema do mundo real
+* Software inovador
+* Diferença para o negócio 
+
+- Organize-se para a gestão da qualidade
+* Estrture para acomodar mudanças
+* Use técnicas e ferramentas automatizadas de controle de qualidade
+* Use testes unitários, análise de dependência, de código estático..
+* Defina métricas comportamentais e de desempenho para componentes e subsistemas
+
+- Considere os aspectos  operacionais da aplicação
+* Determine métricas operacionais
+* Estabeleça níveis de dependências (Priorização de artefatos bem definidos)
+
+BOM PROJETO É INVESTIMENTO
+Embora em alguns momentos iniciais possa parecer viável sacrificar a qualidade do design em favor de um menor "time to market", a longo prazo, investir em um bom design é mais vantajoso, pois maximiza a funcionalidade e o retorno do projeto 
