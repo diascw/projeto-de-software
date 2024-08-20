@@ -6,3 +6,31 @@ Principais atividades realizadas na fase de projeto
 
 + Realização do projeto da interface gráfica com o usuário
 + Definição dos algoritmos a serem utilizados na implementação
+
+
+O projeto de software é composto d eduas atividades
+* Projeto de arquitetura de software
+- Projeto mais alto nível com granularidade macro do software definindo seus componentes e a interface de comunicação
+- objetivo é satisfazer os requisitos de qualidade 
+
+* O projeto detalhado do software
+- projeto mais baixo nível com granularidade micro do software definindo seus objetos e a forma de colaboração entre eles para realizar as funções do sistema
+- objetivo é satisfazer os requisitos funcionais
+
+* ARQUITETURA 
+- componentes e conectores
+- restrições sobre componentes e conectores
+- composição de componentes
+
+* PROJETO (detalhamento)
+- procedimento e interfaces
+- algoritmos e estruturas de dados
+- composição procentual
+
+PONTO CHAVE - problemas no desenvolvimento de software
+ARQUITETURA de Software está diretamente ligada aos atributos de qualidade
+ 
+capture os atributos de qualidade do software -> construa o software baseado nesses atributos de qualidade
+
+
+Introdução - questões 
