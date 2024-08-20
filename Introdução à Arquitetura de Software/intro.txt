@@ -1,0 +1,8 @@
+Principais atividades realizadas na fase de projeto 
+- Detalhamento dos aspectos dinâmicos do sistema
+- O refinamento dos aspectos dinâmicos e estruturais do sistema
+- Detalhamento da arquitetura do sistema
+- Definição das estratégias para armazenamento, gerenciamento e persistência dos dados manipulados pelo sistema.
+
++ Realização do projeto da interface gráfica com o usuário
++ Definição dos algoritmos a serem utilizados na implementação
