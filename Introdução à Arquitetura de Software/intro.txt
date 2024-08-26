@@ -1,36 +1,70 @@
-Principais atividades realizadas na fase de projeto 
-- Detalhamento dos aspectos dinâmicos do sistema
-- O refinamento dos aspectos dinâmicos e estruturais do sistema
-- Detalhamento da arquitetura do sistema
-- Definição das estratégias para armazenamento, gerenciamento e persistência dos dados manipulados pelo sistema.
 
-+ Realização do projeto da interface gráfica com o usuário
-+ Definição dos algoritmos a serem utilizados na implementação
+Principais atividades realizadas na fase de projeto:
 
+- Detalhamento dos aspectos dinâmicos do sistema: Refinamento e especificação de como o sistema se comporta ao longo do tempo, considerando a interação entre os componentes.
 
-O projeto de software é composto d eduas atividades
-* Projeto de arquitetura de software
-- Projeto mais alto nível com granularidade macro do software definindo seus componentes e a interface de comunicação
-- objetivo é satisfazer os requisitos de qualidade 
+- Refinamento dos aspectos dinâmicos e estruturais do sistema: Aperfeiçoamento contínuo tanto da estrutura do sistema quanto de suas interações dinâmicas.
 
-* O projeto detalhado do software
-- projeto mais baixo nível com granularidade micro do software definindo seus objetos e a forma de colaboração entre eles para realizar as funções do sistema
-- objetivo é satisfazer os requisitos funcionais
+- Detalhamento da arquitetura do sistema: Definição clara da estrutura geral do sistema, incluindo seus principais componentes e a maneira como eles se comunicam.
 
-* ARQUITETURA 
-- componentes e conectores
-- restrições sobre componentes e conectores
-- composição de componentes
+- Definição das estratégias para armazenamento, gerenciamento e persistência dos dados: Determinação dos métodos e tecnologias a serem utilizados para armazenar e manter os dados utilizados pelo sistema.
 
-* PROJETO (detalhamento)
-- procedimento e interfaces
-- algoritmos e estruturas de dados
-- composição procentual
+- Projeto da interface gráfica com o usuário: Desenho e especificação da interface do usuário, considerando usabilidade e experiência do usuário.
 
-PONTO CHAVE - problemas no desenvolvimento de software
-ARQUITETURA de Software está diretamente ligada aos atributos de qualidade
- 
-capture os atributos de qualidade do software -> construa o software baseado nesses atributos de qualidade
+- Definição dos algoritmos: Escolha dos algoritmos que serão implementados no sistema, considerando eficiência e adequação às necessidades funcionais.
 
 
-Introdução - questões 
+O projeto de software é composto de duas atividades principais:
+
+1. Projeto de Arquitetura de Software:
+   - Envolve o planejamento em nível macro, definindo os componentes do software e suas interfaces de comunicação.
+   - O objetivo principal é satisfazer os requisitos de qualidade do sistema.
+
+2. Projeto Detalhado do Software:
+   - Foco em um nível micro, especificando objetos e a colaboração entre eles para realizar as funcionalidades do sistema.
+   - Visa atender aos requisitos funcionais estabelecidos.
+
+Arquitetura de Software:
+- Componentes e conectores: Identificação dos principais blocos de construção do software e como eles se conectam.
+- Restrições sobre componentes e conectores: Definição de regras e limitações para garantir a integridade e desempenho do sistema.
+- Composição de componentes: Organização e hierarquização dos componentes dentro do sistema.
+
+Projeto Detalhado:
+- Procedimentos e interfaces: Especificação detalhada de como as funções serão realizadas e como os módulos se comunicarão.
+- Algoritmos e estruturas de dados: Escolha dos algoritmos a serem implementados e das estruturas de dados que suportarão o sistema.
+- Composição porcentual: Análise da distribuição e importância relativa dos diferentes elementos dentro do projeto.
+
+Ponto-chave:
+- Problemas no desenvolvimento de software: A arquitetura de software está diretamente ligada aos atributos de qualidade do sistema.
+- Captura dos atributos de qualidade: É fundamental identificar os atributos de qualidade desejados e construir o software com base nesses atributos para garantir o sucesso do projeto.
+
+Resumo sobre Arquitetura de Software:
+
+Questões principais:
+- Como decompor um sistema em subsistemas.
+- Identificação de classes para permitir reutilização de subsistemas.
+- Análise de dependências entre subsistemas.
+- Distribuição de subsistemas em diferentes nós de processamento.
+- Impactos na arquitetura ao agrupar ou separar subsistemas.
+
+Conceitos de Arquitetura:
+- Arquitetura como conjunto de decisões sobre a organização do sistema de software, incluindo a seleção de elementos estruturais e interfaces, comportamento e composição desses elementos.
+- Estilo arquitetural guia a organização.
+- Arquitetura como organização fundamental do sistema, seus componentes, relacionamentos, e princípios de desenho e evolução.
+
+Objetivo da Arquitetura de Software:
+- Minimizar recursos humanos para construção do software.
+- Qualidade do design medida pelo esforço necessário para atender necessidades do cliente.
+- Arquitetura deve proporcionar uma visão de alto nível do sistema.
+
+Considerações sobre Arquitetura:
+- Uso, implantação, gestão em produção, requisitos de qualidade, flexibilidade e sustentabilidade, e tendências de arquitetura.
+
+Processos e Razões para Projetar a Arquitetura:
+- Envolve processos, stakeholders, balanceamento de necessidades, análise e desenho, problemas e soluções, e riscos.
+- Razões incluem: avaliação da arquitetura antes da construção, abstração para isolar complexidade, apoio ao planejamento, facilitação da comunicação.
+
+Problemas Típicos:
+- Mudanças nos requisitos que afetam a arquitetura.
+- Avaliação da arquitetura pode ser imprecisa devido à falta de detalhes.
+- Implementação pode desviar do propósito e não satisfazer os requisitos.
