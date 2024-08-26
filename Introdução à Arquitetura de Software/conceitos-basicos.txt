@@ -1,0 +1,23 @@
+* Arquitetura de Software
+
+- Existem diferentes definições para arquitetura de software.
+- Uma das definições mais comuns foca no projeto em alto nível, envolvendo unidades maiores como pacotes, componentes, módulos, subsistemas, camadas ou serviços.
+- A arquitetura inclui as decisões de projeto mais importantes, que são difíceis de reverter posteriormente.
+- Essas decisões incluem a escolha dos módulos principais, linguagem de programação e banco de dados.
+Componentes Arquiteturais Relevantes
+
+* Componentes arquiteturais devem ser relevantes para que um sistema atenda a seus objetivos.
+
+Exemplo 1: Sistemas de Informações - O módulo de persistência é fundamental.
+Exemplo 2: IA para diagnosticar doenças - O módulo de persistência é menos relevante e não faz parte da arquitetura principal.
+
+* Padrões Arquiteturais
+
+- Padrões arquiteturais propõem uma organização de alto nível para sistemas de software, incluindo os principais módulos e as relações entre eles.
+Exemplos de padrões arquiteturais:
+
+- Arquitetura em camadas
+- Model-View-Controller (MVC)
+- Microsserviços
+- Orientada a Mensagens
+- Publish/Subscribe
