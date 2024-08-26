@@ -1,0 +1,86 @@
+Objetivos
+
+- estabelece o contexto para o projeto e para a implementação
+- arquitetura > projeto > implementação > código
+
+Estilos arquiteturais
+- também é chamado de padrão arquitetural
+- é um conjunto de princípios
+- representação em alto nível que fornece uma estrtura abstrata para uma família de sistemas
+- um estilo arquiteturalmmelhora o particionamento e promove a reutilização de design, fornecendo soluções para problemas recorrentes
+- conjunto de princípios que moldam um aplicativo
+
+padrões diferem uns dos outros
+- eles podem ser organizados por área de foco principal
+* comunicação  > arquitetura orientada a serviços de comunicação (SOA), barramento de mensagens 
+
+- camadas (implementação)  > client/server, N-tier, 3-tier
+
+- domínio  > domain driver design
+
+- estrtura  > arquitetura baseada em componentes, orientada a objetos, arquitetura em camadas
+
+* a escolha do estilo arquitetural é a maior decição na definição da arquitetura
+* um software com um estilo arquitetural compartilha características comuns
+
+tipos de estilos arquiteturais
+- client-server: divide os softwares em dois componentes, onde um, o cliente, faz uma solicitação de serviço para outro, o servidor
+
+- layered architecture: particiona as responsabilidades do software em grupos de camadas.
+
+- n-tier / 3-tier: segrega a funcionalidade em segmentos separados da mesma maneira como o estilo de camadas, mas com cada segmento sendo um nível localizado em um computador fisicamente separado
+
+message-bus: o software pode receber e enviar mensagens baseadas em um conjunto de formatos conhecidos, para que ele possa comunicar com outros sem precisar conhecer o destinatário real
+
+estilos arquiteturais
+object-oriented: baseado na divisão de tarefas em objetos individuais reutilizáveis e auto-suficientes, cada contendo os dados e o comportamento relevante para o objeto
+
+SOA: Refere-se a softwares que expõem e consomem funcionalidade como serviço usando contratos e mensagens
+
+Domain driver Design: Orientado a objetos focado na modelagem de um domínio de negócios e definindo objetos de negócios com base em entidades dentro do domínio de negócios
+
+Alguns tipos de Estilos Arquiteturais
+ Sistemas de fluxo de dados
+• batch sequencial
+• pipe-and-filter
+• camadas
+
+ Sistemas de chamada-e-retorno
+• programa principal e subrotinas
+• orientação a objetos
+
+ Sistemas em rede
+• cliente-servidor
+• Peer-to-peer (p2p)
+
+Sistemas interativos
+• Modelo-visão-controlador
+▪ Repositórios
+• Banco de dados centralizado
+
+ Sistemas orientados a serviços
+• orientação a serviços
+• computação em nuven
+
+níveis de descrição de um sistema
+
+1. requisitos <- decomposição da funcionalidade
+2. possiveis soluções <- arquiteturas de referências (estilos)
+3. implementação <- arquitetura selecionada
+
+▪ A arquitetura de um sistema de software quase nunca é
+limitada a um único estilo, mas muitas vezes é uma
+combinação de estilos arquiteturais compõem o completo
+sistema.
+
+▪ Por exemplo, você pode ter um projeto SOA composto por
+serviços desenvolvidos usando uma abordagem de arquitetura
+em camadas e um estilo de arquitetura orientada a objeto.
+
+▪ Uma combinação de estilos de arquitetura também é útil se
+estiver criando uma Aplicação Web, onde pode-se conseguir
+uma separação efetiva de interesses usando o estilo de
+arquitetura em camadas.
+
+• Isso separará a lógica de apresentação do negócio lógica e a lógica de acesso a dados.
+
