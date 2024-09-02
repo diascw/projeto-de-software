@@ -1,0 +1,69 @@
+Arquitetura MVC
+
+- MVC foi o padrão arquitetural escolhido pelos projetistas de Smalltaks para implementação de interfaces gráficas.
+- Define que as classes de um sistema devem ser organizadas em três grupos: Visão, Controladores, Modelos.
+
+Visão ----> Controladores
+|                      |
+|                      |              
+ ---- Modelo <---------
+
+ Visão: classes responsáveis pela apresentação da interface gráfica do sistema, incluindo janelas, botões, menus, barras de rolagem, etc..
+
+ Controle: classes que tratam e interpretam eventos gerados por dispositivos de entrada, com mouse e teclado.
+ Ex: calculadora - quando o usuário clica em um botão "+", uma classe Controladora deve capturar esse evento e chamar um método do modelo.
+
+ Modelo: classes que armazenam os dados manipulados pela aplicação e que têm a ver com o domínio do sistema em construção.
+ * classes de modelo não têm qualquer conhecimento ou dependência para classes de Visão e Controladoras.
+
+ Em uma arquitetura MVC, a interface gráfica é formada por objetos de visão e por controladores, porém, em muitos sistemas não existe uma distinção clara entre Visão e Controladores.
+* a maioria das versões de SmallTalk não separa esses dois componentes.
+
+Podemos entender MVC como: (Visão + Controladores) + Modelo = Interfcae Gráfica + Modelo
+* a interface gráfica pode depender do Modelo, porém, classes de modele não têm dependências para classes de Interface Gráfica.
+
+Vantagens: MVC favorece a especialização do trabalho de desenvolvimento. Especialistas geralmente são dev front-entender
+
+MVC favorece a especialização do trabalho de desenvolvimento
+ex: dev de classes de modeli não precisam conhecer e implementar código de interface com usuários.
+
+MVC permite que classes de modleo sejam usadas por difernetes visões,
+
+Favorece testabilidade 
+* é mais fácil testar objetos não relacionados com a implementação de interfaces gráficas
+* ao separar objetos de apresentação de onjetos d emodelo, fica mais fácil testar esses últimos.
+
+
+MVC atualmente:
+foi proposto para aplicações desktop
+aplicações que incluem uma interface com janelas, botões, caixa de texto, etc..
+ex: word, excel e powerpoint
+
+a confusão entre os termos MVC e três camadas surgiu principalmente devido ao aparecimento de Frameworks MVC
+- spring, python, django
+
+esses frameworks expandiram e adaptaram o conceito de MVC para WEB
+* adaptação para construir sistemas distribuídos
+
+MVC em sistemas WEB
+por exemplo, eles forçam a organização de um sistema Web em três partes
+
+Visão: composta por páginas HTML
+Controladores: processam uma solicitação e geram uma nova visão como resposta
+Modelo: camada que persiste os dados em um banco de dados
+
+- distribuída
+- temos browsers que exibem páginas web (interface html, js, etc)
+
+- executa no sevidor web
+- primeiro componente é o browser
+- segundo componente é o servidor web
+- usamos mvc para organizar essa aplicação
+
+- visão: páginas js (o que o usuário visualiza), enviados para o browser para cliente ver e interagir
+
+- controladores: fornecem dados para páginas HTML, recebem dados de entrada, fornecem informações parapáginas de saída
+
+- modelo: é a camada que persiste os dados em um banco de dados
+
+- o banco de dados é o terceiro componente
