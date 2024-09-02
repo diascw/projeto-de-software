@@ -1,0 +1,57 @@
+- é um dos padrões arquiteturais mais usados, desde que os primeiros sistemas de software de maior porte foram construídos nas décadas de 60 e 70.
+- as classes são organizadas em módulos de maior tamanho, chamados de camadas
+- as camadas são dispostas de forma hierárquica, como em um bolo
+
+- uma camada somente pode usar serviços - isto é, chamar métodos, instanciar objetos, estender classes, declarar parâmetros, lançar exceções, tec - da camada imediatamente inferior
+
+- muiyo usadas na implementação de protocolos de rede
+
+- http é um protocolo de aplicação, que usa serviços de um protocolo de transporte (ex: TCP)
+- TCP usa serviços de um protocolo de rede (ex: IP)
+- a camada IP usa serviços de um protocolo de comunicação (ex: ethernet)
+
+* arquitetura em camadas particiona a complexidade envolvida no desenvolvimento de um sistema em componentes menores (as camadas)
+
+- a camada n somente pode usar serviços da camada n-1 
+exemplo: a camada Controller, por exemplo, só interage com a camada Model, e não o contrário.
+
+- é mais fácil trocar uma camada por outra (por exemplo, mudar de TCP para UDP)
+
+- reuso de uma camada por mais de uma camada superior
+
+- a camada de transporte pode ser usada por vários protocolos de aplicação, como HTTP, SMTP, DHCP
+
+variações
+existem duas variações desta arquitetura em camadas para sistemas de informações:
+> três camadas
+> duas camadas
+
+arquitetura em três camadas
+- comum na construção de sistemas de informação corporativos
+- se tornaram uma alternativa muito comum na década de 80
+
+camada 01 - interface com o usuário, também chamada de camada de apresentação | responsável por toda interação com o usuário | ele trata da exibição de informação > coleta e processamento de entradas > eventos de interfaces | clique em botões, marcação de texto | o código que implementa esse formulário deve estar na camada de interface
+cliente (interface gráfica)
+
+camada 02 - lógica de negócio, também conhecida como camada de aplicação, implementa as regras de negócio do sistema
+aplicação (lógica de negócio)
+
+camada 03 - banco de dados, que armazena os dados manipulados pelo sistema
+banco de dados
+
+normalmente, uma arquitetura em três camadas é uma arquitetura distribuída
+
+a camada de interface executa na máquina dos clientes
+
+a camada de negócio executa em um servidor, muitas vezes chamado de servidor de aplicação
+
+a camada de negócio executa emum servidor, muitas vezes chamado de servidor de aplicação > pode ter vários módulos
+
+a camada de negócio executa em um servidor, muitas vezes chamado de servidor de aplicação
+ex: uma fachada, para facilitar o acesso ao sistema pelos clientes
+
+a camada de negócio executa em um servidor, muitas vezes chamado de servidor de aplicação
+ex: um módulo de persistência, com a função de isolar o banco de dados nos demais módulos
+
+E por fim, temos o banco de dados...
+
