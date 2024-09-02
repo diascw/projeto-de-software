@@ -4,7 +4,7 @@
 
 - uma camada somente pode usar serviços - isto é, chamar métodos, instanciar objetos, estender classes, declarar parâmetros, lançar exceções, tec - da camada imediatamente inferior
 
-- muiyo usadas na implementação de protocolos de rede
+- muito usadas na implementação de protocolos de rede
 
 - http é um protocolo de aplicação, que usa serviços de um protocolo de transporte (ex: TCP)
 - TCP usa serviços de um protocolo de rede (ex: IP)
@@ -55,3 +55,5 @@ ex: um módulo de persistência, com a função de isolar o banco de dados nos d
 
 E por fim, temos o banco de dados...
 
+
+Padrões: MVC, MVP e MVVM 
