@@ -1,13 +1,37 @@
-- visão lógica (projeto)
-* pacotes
-* subsistemas
-* componentes
-* interfaces
-* camadas
+1. Visões da Arquitetura na UML:
+   - Visão Lógica: Projeto com pacotes, subsistemas, componentes, interfaces e camadas.
+   - Visão de Implementação: Diagramas de componentes que ilustram a estrutura interna.
+   - Visão de Implantação: Diagramas de implantação mostrando a topologia física e a comunicação entre nós.
 
-- visão implementação
-* diagarmas de componentes
+2. Pacotes:
+   - Mecanismos de agrupamento de artefatos de modelos.
+   - Usado para organizar modelos e gerenciar configurações.
+   - Representação hierárquica de pacotes com dependências e estereótipos.
 
-- visão implantação
-* diagramas de implantação
+3. Subsistemas e Classificadores:
+   - Subsistemas são agrupamentos de classes e realizam interfaces.
+   - Identificação e alocação de classes a subsistemas.
+   - Critérios de agrupamento baseados na importância das classes no modelo de domínio.
+
+4. Componentes:
+   - Componentes são unidades configuráveis de software.
+   - Diferença entre classes e componentes: classes representam abstrações lógicas e componentes representam conceitos físicos.
+   - Componentes possuem interfaces e podem ser substituídos, mantendo a mesma funcionalidade.
+
+5. Interfaces:
+   - Especificação de serviços oferecidos por componentes.
+   - Interfaces podem ser fornecidas (para outros componentes) ou requeridas (de outros componentes).
+   - Notação de interfaces na UML.
+
+6. Camadas:
+   - Organização da arquitetura em camadas de software, onde funcionalidades de alto nível dependem de funcionalidades de baixo nível.
+   - Camadas fornecem abstração e facilitam a modificação e portabilidade do sistema.
+
+7. Diagramas de Implantação:
+   - Visualização da configuração de processadores (nós) e instâncias de componentes em tempo de execução.
+   - Representação de conexões e comunicação entre os nós.
+
+8. Alocação de Componentes aos Nós:
+   - Fatores de desempenho e não relacionados ao desempenho (como segurança e redundância) influenciam a alocação.
+   - A sobrecarga de comunicação entre nós pode impactar o desempenho, devendo ser considerada.
 
