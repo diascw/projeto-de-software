@@ -17,3 +17,11 @@ testabilidade | reusabilidade | confiabilidade
 disponibilidade | segurança | facilidade de estender |
 facilidade de manter | facilidade de gerenciar | etc...
 
+Escolha de Tecnologias
+como escolher tecnologias de uma arquitetura?
+- mecanismo arquitetural representa uma solução comum para o problema recorrente.
+- o valor na definição de mecanismos de arquitetura é que eles:
+mostram explicitamente aspectos dos mecanismos da solução que são comuns em todo o sistema.
+isto ajuda a planejar.
+coloca marcadores para que os desenvolvedores cinstruam os aspectos do sistema uma vez e reusem-nos. isto reduz a carga de trabalho.
+um mecanismo arquitetural pode ter três estados: análise, design e implementação.
