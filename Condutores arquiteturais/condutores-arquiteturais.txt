@@ -1,0 +1,19 @@
+Necessidades do negócio
+- quais são as necessidades de negócio endereçadas pela arquitetura?
+as mais importantes são condutores arquiteturais.
+
+Riscos técnicos
+- quais riscos podem causar impacto na arquitetura?
+os riscos mais impactantes são condutores arquiteturais.
+
+Restrições
+- ecistem restrições (tecnológicas, de projeto ou corporativas) importantes para a arquitetura?
+restrições mais impactantes são condutores arquiteturais
+
+Requisitos de qualidade
+
+desempenho | escalabilidade | usabilidade
+testabilidade | reusabilidade | confiabilidade 
+disponibilidade | segurança | facilidade de estender |
+facilidade de manter | facilidade de gerenciar | etc...
+
