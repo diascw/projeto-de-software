@@ -25,3 +25,12 @@ mostram explicitamente aspectos dos mecanismos da solução que são comuns em t
 isto ajuda a planejar.
 coloca marcadores para que os desenvolvedores cinstruam os aspectos do sistema uma vez e reusem-nos. isto reduz a carga de trabalho.
 um mecanismo arquitetural pode ter três estados: análise, design e implementação.
+
+Modelagem da arquitetura
+modelos, diagramas, tabelas, descrições textuais;
+o objetivo é comunicar, entender e validar a arquitetura.
+
+Visão lógica - diagramas de estado, de classses e de interação.
+Visão implementação - diagrama de componentes
+Visão processo - diagrama de processos
+Visão de impantação - diagramas de implantação
