@@ -1,0 +1,13 @@
+- visão lógica (projeto)
+* pacotes
+* subsistemas
+* componentes
+* interfaces
+* camadas
+
+- visão implementação
+* diagarmas de componentes
+
+- visão implantação
+* diagramas de implantação
+
